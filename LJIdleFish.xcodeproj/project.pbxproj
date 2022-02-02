@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E6DDE2A550F2FABC4F76580 /* Pods_LJIdleFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A563DFCD46CEB0A1953482 /* Pods_LJIdleFish.framework */; };
+		7720EF7A27A90E2100C2319B /* LJIdleFishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720EF7927A90E2100C2319B /* LJIdleFishApp.swift */; };
+		7720EF7C27A90E2100C2319B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720EF7B27A90E2100C2319B /* ContentView.swift */; };
+		7720EF7E27A90E2200C2319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7720EF7D27A90E2200C2319B /* Assets.xcassets */; };
+		7720EF8127A90E2200C2319B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7720EF8027A90E2200C2319B /* Preview Assets.xcassets */; };
+		7720EF8827A90EB300C2319B /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720EF8727A90EB300C2319B /* CustomTabbarView.swift */; };
+		77950F7227AA1233001C812D /* tabbar_animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77950F7127AA1233001C812D /* tabbar_animation.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		403B6352930E18F40C2BC68C /* Pods-LJIdleFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJIdleFish.release.xcconfig"; path = "Target Support Files/Pods-LJIdleFish/Pods-LJIdleFish.release.xcconfig"; sourceTree = "<group>"; };
+		7720EF7627A90E2100C2319B /* LJIdleFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJIdleFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7720EF7927A90E2100C2319B /* LJIdleFishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJIdleFishApp.swift; sourceTree = "<group>"; };
+		7720EF7B27A90E2100C2319B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7720EF7D27A90E2200C2319B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7720EF8027A90E2200C2319B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7720EF8727A90EB300C2319B /* CustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
+		77950F7127AA1233001C812D /* tabbar_animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tabbar_animation.gif; sourceTree = "<group>"; };
+		77950F7327AA16EF001C812D /* 说明文件.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "说明文件.h"; sourceTree = "<group>"; };
+		F6A563DFCD46CEB0A1953482 /* Pods_LJIdleFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJIdleFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB474281AEDCDA9A0DE613A0 /* Pods-LJIdleFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJIdleFish.debug.xcconfig"; path = "Target Support Files/Pods-LJIdleFish/Pods-LJIdleFish.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7720EF7327A90E2100C2319B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6DDE2A550F2FABC4F76580 /* Pods_LJIdleFish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7720EF6D27A90E2100C2319B = {
+			isa = PBXGroup;
+			children = (
+				7720EF7827A90E2100C2319B /* LJIdleFish */,
+				7720EF7727A90E2100C2319B /* Products */,
+				F811FC34203A9179F94218CC /* Pods */,
+				D48CA9E09F9BF5E6F88FB505 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7720EF7727A90E2100C2319B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7720EF7627A90E2100C2319B /* LJIdleFish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7720EF7827A90E2100C2319B /* LJIdleFish */ = {
+			isa = PBXGroup;
+			children = (
+				77950F7127AA1233001C812D /* tabbar_animation.gif */,
+				7720EF7927A90E2100C2319B /* LJIdleFishApp.swift */,
+				7720EF7B27A90E2100C2319B /* ContentView.swift */,
+				7720EF8727A90EB300C2319B /* CustomTabbarView.swift */,
+				77950F7327AA16EF001C812D /* 说明文件.h */,
+				7720EF7D27A90E2200C2319B /* Assets.xcassets */,
+				7720EF7F27A90E2200C2319B /* Preview Content */,
+			);
+			path = LJIdleFish;
+			sourceTree = "<group>";
+		};
+		7720EF7F27A90E2200C2319B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7720EF8027A90E2200C2319B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D48CA9E09F9BF5E6F88FB505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6A563DFCD46CEB0A1953482 /* Pods_LJIdleFish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F811FC34203A9179F94218CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB474281AEDCDA9A0DE613A0 /* Pods-LJIdleFish.debug.xcconfig */,
+				403B6352930E18F40C2BC68C /* Pods-LJIdleFish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7720EF7527A90E2100C2319B /* LJIdleFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7720EF8427A90E2200C2319B /* Build configuration list for PBXNativeTarget "LJIdleFish" */;
+			buildPhases = (
+				FA938C2D42446DE3CE22E5A8 /* [CP] Check Pods Manifest.lock */,
+				7720EF7227A90E2100C2319B /* Sources */,
+				7720EF7327A90E2100C2319B /* Frameworks */,
+				7720EF7427A90E2100C2319B /* Resources */,
+				C813E7EA8C5795CC08602948 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJIdleFish;
+			productName = LJIdleFish;
+			productReference = 7720EF7627A90E2100C2319B /* LJIdleFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7720EF6E27A90E2100C2319B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7720EF7527A90E2100C2319B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 7720EF7127A90E2100C2319B /* Build configuration list for PBXProject "LJIdleFish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7720EF6D27A90E2100C2319B;
+			productRefGroup = 7720EF7727A90E2100C2319B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7720EF7527A90E2100C2319B /* LJIdleFish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7720EF7427A90E2100C2319B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7720EF8127A90E2200C2319B /* Preview Assets.xcassets in Resources */,
+				7720EF7E27A90E2200C2319B /* Assets.xcassets in Resources */,
+				77950F7227AA1233001C812D /* tabbar_animation.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C813E7EA8C5795CC08602948 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJIdleFish/Pods-LJIdleFish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJIdleFish/Pods-LJIdleFish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LJIdleFish/Pods-LJIdleFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA938C2D42446DE3CE22E5A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJIdleFish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7720EF7227A90E2100C2319B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7720EF8827A90EB300C2319B /* CustomTabbarView.swift in Sources */,
+				7720EF7C27A90E2100C2319B /* ContentView.swift in Sources */,
+				7720EF7A27A90E2100C2319B /* LJIdleFishApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7720EF8227A90E2200C2319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7720EF8327A90E2200C2319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7720EF8527A90E2200C2319B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB474281AEDCDA9A0DE613A0 /* Pods-LJIdleFish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LJIdleFish/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TH2YZ8H29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujun.LJIdleFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7720EF8627A90E2200C2319B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403B6352930E18F40C2BC68C /* Pods-LJIdleFish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LJIdleFish/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TH2YZ8H29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujun.LJIdleFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7720EF7127A90E2100C2319B /* Build configuration list for PBXProject "LJIdleFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7720EF8227A90E2200C2319B /* Debug */,
+				7720EF8327A90E2200C2319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7720EF8427A90E2200C2319B /* Build configuration list for PBXNativeTarget "LJIdleFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7720EF8527A90E2200C2319B /* Debug */,
+				7720EF8627A90E2200C2319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7720EF6E27A90E2100C2319B /* Project object */;
+}
